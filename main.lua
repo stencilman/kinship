@@ -36,7 +36,7 @@ optimMethod = optim.sgd
 
 
 _parameters, _gradParameters = _model:getParameters()
-for t = 1, 50000 do
+for t = 1, 100000 do
   idx = math.random(111)  
   x1 = _data[idx][2]
   x2 = _data[idx][1]
